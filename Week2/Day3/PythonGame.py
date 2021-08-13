@@ -69,40 +69,40 @@ while Battle:
         Battle = False
     
     if userChoice == "5":
-        print("Your enemy destroyer's health is " + str(npc.health))
+        print("\nYour enemy destroyer's health is " + str(npc.health))
     
     if userChoice == "4":
-        print("Your starfighter's health is " + str(user.health))
+        print("\nYour starfighter's health is " + str(user.health))
     
     if userChoice == "3":
         evadeChance = random.randint(1,10)
         if evadeChance >= 5:
             user.takeDamage(attack2)
-            print("You were unable to evade the Flagon's attack and were hit by their lasers!")
+            print("\nYou were unable to evade the Flagon's attack and were hit by their lasers!")
         elif evadeChance < 5:
-            print("You were able to evade the Flagon's attack")
+            print("\nYou were able to evade the Flagon's attack")
     
     if userChoice == "2":
         attackChance = random.randint(1,10)
         if attackChance <= 5:
             user.takeDamage(npc.attack)
-            print("Your Ion Cannons missed the Flagon destroyer and they retaliated!")
+            print("\nYour Ion Cannons missed the Flagon destroyer and they retaliated!")
         if attackChance > 5:
             npc.takeDamage(attack2)
-            print("Your Ion Cannons hit the Flagon destroyer and they recieved high damage!")
+            print("\nYour Ion Cannons hit the Flagon destroyer and they recieved high damage!")
     if userChoice == "1":
         attackChance = random.randint(1,10)
         if attackChance >= 5:
             npc.takeDamage(attack1)
-            print("You attack the Flagon Destroyer with your Main Blasters and deal moderate damage")
+            print("\nYou attack the Flagon Destroyer with your Main Blasters and deal moderate damage")
         if attackChance < 5:
             user.takeDamage(attack1)
-            print("You attacked the Flagon Destroyer and missed. The Flagon destroyer retaliates!")
+            print("\nYou attacked the Flagon Destroyer and missed. The Flagon destroyer retaliates!")
 
     if user.health <= 0:
-        print("Your ship has been destroyed and the Flagon ship will surely destroy the Galactic Empire mothership. All hope is lost.")
+        print("\nYour ship has been destroyed and the Flagon ship will surely destroy the Galactic Empire mothership. All hope is lost.")
         Battle = False
     
     if npc.health <= 0:
-        print("The Flagon destroyer has been destroyed and the Galactic Empire mothership has been saved. The galaxy is safe!")
+        print("\nThe Flagon destroyer has been destroyed and the Galactic Empire mothership has been saved. The galaxy is safe!")
         Battle = False
