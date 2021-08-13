@@ -1,0 +1,1 @@
+This is my first Python game! There will be only one victor and one loser, and you have six different options to choose from! Fly well Commander, the galaxy's fate rests with you!
