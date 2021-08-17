@@ -1,0 +1,19 @@
+body {
+    background-image: url(http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg);
+}
+.Main {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text {
+    text-align: center;
+    color: turquoise;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.images {
+    text-align: center;
+}

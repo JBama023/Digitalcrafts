@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://background-tiles.com/overview/mixed-colors/textures/large/5013.png)
+    }
+.Title {
+    text-align: center;
+    color: #4B0082;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.MainText {
+    text-align: center;
+    color:navy;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.image1 {
+    text-align: center;
+}
+.shows {
+    text-align: center;
+}
+.LOTHD {
+    text-align: center;
+}
+.Rugrats {
+    text-align: center;
+}
+.goosebumps {
+    text-align: right;
+}
+.BillNye {
+    text-align: center;
+}

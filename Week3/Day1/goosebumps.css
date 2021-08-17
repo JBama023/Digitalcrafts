@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://background-tiles.com/overview/black/textures/small/5018.png);
+}
+.Main {
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.text {
+    text-align: center;
+    color: green;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.images {
+    text-align: center;
+}

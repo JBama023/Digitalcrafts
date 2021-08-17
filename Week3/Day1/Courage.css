@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://background-tiles.com/overview/purple/textures/large/5010.png);
+}
+.Main {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: cursive;
+}
+.text {
+    text-align: center;
+    color: turquoise;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.images {
+    text-align: center;
+}
