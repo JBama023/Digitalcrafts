@@ -1,0 +1,13 @@
+.box {
+    background-color: aqua;
+    border-color: crimson;
+    height: 50px;
+    width: 50px;
+    margin: 5px
+}
+.Grid {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: auto;
+    margin: 5px;
+}
