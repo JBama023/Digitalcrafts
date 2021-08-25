@@ -1,0 +1,54 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+body {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Solid-color-wddallpaper-download-hd.jpg);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 250px;
+}
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.secondarycontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.box {
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 20px;
+    width: 300px;
+}
+.submit-button {
+    border-radius: 10px;
+    background-color: darkcyan;
+    height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

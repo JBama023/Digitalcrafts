@@ -1,0 +1,33 @@
+.container1 {
+    display: flex;
+    background-color: aqua;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.container2 {
+    display: flex;
+    background-color: red;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.container3 {
+    display: flex;
+    background-color: seagreen;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.container4 {
+    display: flex;
+    background-color: yellow;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
