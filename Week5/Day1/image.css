@@ -1,0 +1,24 @@
+.Iotd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(16, 16, 173);
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16,16,173);
+    border-radius: 40px;
+    color: white;
+    font-size: x-large;
+}
+
+body {
+    background-color: black;
+}
