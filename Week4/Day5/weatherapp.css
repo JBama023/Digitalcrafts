@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1548049983-5be60c9bc004?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: #3A3B3C;
+}
+
+.submit-button {
+    background-color: aqua;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-color: whitesmoke;
+    border-radius: 20px;
+}
+.userInput {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
