@@ -1,33 +1,124 @@
 .header {
     display: flex;
     height: 100px;
-    background-color: rgb(7, 9, 133);
+    background-color: rgb(9, 11, 109);
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
     color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-image: url(https://images.unsplash.com/photo-1541140134513-85a161dc4a00?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-color: black;
     justify-content: space-between;
 }
 .header2 {
     display: flex;
     height: 500px;
-    background-color: rgb(7, 9, 133);
+    background-color: rgb(9, 11, 109);
     border-radius: 10px;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     color: white;
-    font-size: xx-large;
+    font-size: large;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header3 {
     display: flex;
     height: 100px;
-    background-color: rgb(7, 9, 133);
+    background-color: rgb(9, 11, 109);
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     justify-content: space-around;
 }
+.button1 {
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(15, 214, 105);
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.button1:hover {
+background-color: rgb(15, 214, 105);
+}
+.button2 {
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(15, 214, 105);
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.button2:hover {
+background-color: rgb(15, 214, 105);
+}
+.button3 {
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(15, 214, 105);
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.button3:hover {
+background-color: rgb(15, 214, 105);
+}
+.galaxy {
+    border-radius: 200px;
+}
+@media screen and (max-width: 713px) {
+    .header3 {
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    .header {
+        font-size: unset;
+    }
+    .header2 {
+        font-size: medium;
+    }
+    .galaxy {
+        height: 200px;
+        width: 200px;
+    }
+    .button1 {
+        padding: 4px 8px;
+    }
+    .button2 {
+        padding: 4px 8px;
+    }
+    .button3 {
+        padding: 4px 8px;
+    }
+}
+ 
+    
+    

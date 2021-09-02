@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
     flex-wrap: wrap;
     background-color: rgb(16, 16, 173);
     border-radius: 20px;
@@ -13,6 +16,8 @@
 .header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgb(16,16,173);
     border-radius: 40px;
     color: white;
@@ -21,4 +26,23 @@
 
 body {
     background-color: black;
+}
+.button1 {
+    width: 200px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(15, 214, 105);
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.button1:hover {
+background-color: rgb(15, 214, 105);
 }
