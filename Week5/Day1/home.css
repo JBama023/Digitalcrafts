@@ -3,7 +3,6 @@
     height: 100px;
     background-color: rgb(9, 11, 109);
     justify-content: center;
-    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
     color: white;
@@ -106,8 +105,8 @@ background-color: rgb(15, 214, 105);
         font-size: medium;
     }
     .galaxy {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
     .button1 {
         padding: 4px 8px;
@@ -119,6 +118,5 @@ background-color: rgb(15, 214, 105);
         padding: 4px 8px;
     }
 }
- 
     
     

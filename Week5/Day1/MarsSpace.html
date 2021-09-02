@@ -9,7 +9,10 @@
 </head>
 <body>
     <div class="header">
-        <h1>Advancements in Mars SpaceFlight</h1>
+        <h1>Advancements in Mars Spaceflight</h1>
+        <a href="home.html">
+            <button class="mainbutton">Home</button>
+        </a>
     </div>
     <div class="main">
         <p> Mars is a somewhat popular subject in terms of human spaceflight potential. Some
@@ -52,16 +55,20 @@
         mankind could ever have. Below are some links for more information. </p>
     </div>
     <div class="footer">
-        <button class="button1">Mars Spaceflight Info</button>
+        <button class="nasabutton"> NASA Mars Spaceflight Info</button>
         <script>
-            document.querySelector(".button1")
+            document.querySelector(".nasabutton")
                 .addEventListener("click", () => {
-                    window.location.href("https://mars.nasa.gov")
+                window.location.href = "https://mars.nasa.gov"
                 });
         </script>
-        <a href="home.html">
-        <button class="button2">Home</button>
-        </a>
+        <button class="spacexbutton">SpaceX Mars Spaceflight Info</button>
+        <script>
+            document.querySelector(".spacexbutton")
+                .addEventListener("click", () => {
+                window.location.href = "https://www.spacex.com/human-spaceflight/mars/"
+                });
+        </script>
     </div>
 </body>
 <script src="MarsSpace.js"></script>

@@ -7,12 +7,13 @@ body {
     background-color: rgb(9, 11, 109);
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
     color: white;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
 }
-.button7 {
+.buttonmain {
     color: white;
     background-color: transparent;
     border: 2px solid rgb(15, 214, 105);
@@ -26,8 +27,9 @@ body {
     border-radius: 20px;
     text-transform: uppercase;
     transition: all .5s ease;
+    width: 200px;
 }
-.button7:hover {
+.buttonmain:hover {
 background-color: rgb(15, 214, 105);
 }
 .merchandise {
@@ -215,4 +217,9 @@ background-color: rgb(15, 214, 105);
 }
 .button6:hover {
 background-color: rgb(15, 214, 105);
+}
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
 }
