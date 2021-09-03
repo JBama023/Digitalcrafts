@@ -14,6 +14,7 @@ async function getIotd() {
     Picture.src = jsonSpace.url
     Picture.style.height = "500px"
     Picture.style.width = "600px"
+    Picture.style.borderRadius = "20px"
     const date = document.createElement("h3")
     date.innerHTML = jsonSpace.date
     date.style.textDecoration = "underline"
