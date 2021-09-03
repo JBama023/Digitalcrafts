@@ -4,7 +4,7 @@ body {
 }
 .header {
     display: flex;
-    background-color: rgb(16, 16, 173);
+    background-color: rgb(9, 11, 109);
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
@@ -14,7 +14,7 @@ body {
 }
 .main {
     display: flex;
-    background-color: rgb(16, 16, 173);
+    background-color:rgb(9, 11, 109);
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -25,7 +25,7 @@ body {
 }
 .footer {
     display: flex;
-    background-color: rgb(16, 16, 173);
+    background-color: rgb(9, 11, 109);
     margin-top: 10px;
     justify-content: center;
     align-items: center;
