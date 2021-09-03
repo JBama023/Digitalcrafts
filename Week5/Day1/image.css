@@ -10,7 +10,8 @@
     border-radius: 20px;
     color: white;
     margin-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
     justify-content: space-evenly;
 }
 .header {
@@ -45,4 +46,13 @@ body {
 }
 .button1:hover {
 background-color: rgb(15, 214, 105);
+}
+@media screen and (max-width: 680px) {
+    .Iotd {
+        font-size: large;
+    }
+    .header {
+        font-size: large;
+        flex-direction: column;
+    }
 }

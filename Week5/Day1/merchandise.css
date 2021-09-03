@@ -233,5 +233,8 @@ background-color: rgb(15, 214, 105);
 @media screen and (max-width: 600px) {
     .header {
         flex-direction: column;
+        font-size: large;
+        font-size: medium;
     }
+
 }
