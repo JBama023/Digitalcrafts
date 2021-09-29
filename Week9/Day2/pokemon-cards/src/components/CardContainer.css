@@ -1,0 +1,14 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.pokemonCards {
+    text-align: center;
+    padding: 30px;
+    background-color: navy;
+    margin: 15px;
+    color: white;
+    border-radius: 20px;
+}
